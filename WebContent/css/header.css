@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+
+* {
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont;
+	
+}
+
+body {
+	 background: #fafafc;
+	 margin: 0;
+}
+
+
+/* HEADER */
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 85px;
+	padding: 20px 30px 20px 30px;
+	background-color: #ffffff;
+	border-radius: 0 0 20px 20px;
+}
+
+.logo {
+	float: left;
+}
+
+.logo img {
+	width: 170px;
+}
+
+.menu ul {
+	margin: 0;
+}
+
+.menu ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+.menu ul li a {
+	color: #1B2149;
+	text-decoration: none;
+}
+
+.menu ul li a:hover {
+	color: #7B57DF;
+}
+ 
+.account {
+	display: flex;
+	flex-direction: row;
+}
+
+button{
+	border: none;
+	border-radius: 10px;
+	padding: 12px 18px 12px 18px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.login button {
+	background-color: #efedfa;
+	color: #7d57de;
+}
+
+.signin button {
+	background-color: #7d57de;
+	color: #ffffff;
+}
+
+.cart img {
+	width: 23px;
+}
+
+.cart button {
+	padding: 7px 12px 7px 12px;
+}
+
+.search input {
+	padding: 12px 250px 12px 10px;
+	margin-right: 80px;
+	border: 0.1px solid lightgrey;
+	border-radius: 10px;
+}
