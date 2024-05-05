@@ -60,6 +60,7 @@ if(prodotti == null)
 									<td>${i.IDProdotto}</td>
 									<td>${i.hdd}</td>
 									<td>${i.ram}</td>
+									<td>${i.categoria}</td>
 									<td style="display:flex; flex-direction: row;">
 										<c:choose>
 											<c:when test="${empty i.image}">
